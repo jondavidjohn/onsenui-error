@@ -1,9 +1,9 @@
-require("onsenui/js/onsenui");
-
+import * as ons from 'onsenui/js/onsenui';
 import React, { Component, PropTypes } from 'react';
 import { render } from 'react-dom'
 
 class List extends Component {
+
   constructor() {
     super();
     this.listSelect = this.listSelect.bind(this);
